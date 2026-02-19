@@ -1,0 +1,240 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #393e46;
+  display: flex;
+  flex-direction: column;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.sectonsBtn {
+  background-color: #393e46;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  position: relative;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.sectonsBtn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: transparent;
+  transition: 0.3s;
+}
+
+.sectonsBtn:hover {
+  cursor: pointer;
+}
+
+.sectonsBtn:hover::after {
+  background: #39ff14;
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14,
+    0 0 20px #39ff14;
+}
+
+main {
+  color: white;
+  flex: 1;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 200px;
+}
+
+.sectons h2 {
+  font-size: 2rem;
+  border-left: white solid 2px;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  gap: 1em;
+}
+
+.aboutme-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+}
+
+.aboutMe a {
+  color: rgb(161, 2, 161);
+}
+
+.aboutMe a:hover {
+  color: white;
+}
+
+.aboutme-txt h2 {
+  font-size: 2rem;
+  border-left: white solid 2px;
+}
+
+.aboutme-txt h3 {
+  font-size: 3rem;
+}
+
+.aboutme-txt h4 {
+  font-size: 1.6rem;
+}
+
+.aboutme-txt p {
+  font-size: 1.2rem;
+}
+
+.profile-picture {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: 50%;
+}
+
+.technologies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  gap: 6em;
+  margin-top: 180px;
+  margin-bottom: 180px;
+}
+
+.techno-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.techno-images img {
+  height: 100px;
+  width: 100px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+#linkedin {
+  color: rgb(32, 130, 251);
+}
+
+#linkedin:hover {
+  color: white;
+}
+
+#github {
+  color: orangered;
+}
+
+#github:hover {
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.neonGreen {
+  color: #39ff14;
+  font-weight: bold;
+}
+
+.blue {
+  color: rgb(43, 43, 254);
+  font-weight: bold;
+}
+
+.cadetBlue {
+  color: cadetblue;
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+  font-weight: bold;
+}
+
+.purple {
+  color: purple;
+  font-weight: bold;
+}
+
+.orange {
+  color: tomato;
+  font-weight: bold;
+}
+
+.red {
+  color: rgb(216, 0, 0);
+}
