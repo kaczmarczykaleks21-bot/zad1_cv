@@ -1,5 +1,6 @@
 html,
 body {
+  scroll-behavior: smooth;
   height: 100%;
   width: 100%;
   padding: 0;
@@ -12,6 +13,10 @@ body {
   flex-direction: column;
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
+}
+
+.hidden {
+  display: none;
 }
 
 header {
@@ -181,6 +186,14 @@ ul {
   gap: 1em;
 }
 
+.courses a {
+  color: rgb(172, 0, 172);
+}
+
+.courses a:hover {
+  color: white;
+}
+
 #linkedin {
   color: rgb(32, 130, 251);
 }
@@ -197,6 +210,59 @@ ul {
   color: white;
 }
 
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  font-size: 1.2rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4em;
+  text-align: center;
+}
+
+.display-projects {
+  text-align: left;
+}
+
+.display-projects a {
+  color: rgb(172, 0, 172);
+}
+
+.display-projects a:hover {
+  color: white;
+}
+
+#keepLaterIMG {
+  max-height: 600px;
+  max-width: 600px;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4a515b;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  max-width: 600px;
+}
+
+.projects button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .center {
   text-align: center;
 }
@@ -205,6 +271,10 @@ ul {
   font-weight: bold;
 }
 
+.white-smoke {
+  color: rgb(220, 220, 220);
+  font-weight: bold;
+}
 .neonGreen {
   color: #39ff14;
   font-weight: bold;
