@@ -8,7 +8,7 @@ body {
 }
 
 body {
-  background-color: #393e46;
+  background-color: #065706;
   display: flex;
   flex-direction: column;
   font-family: "Ubuntu", sans-serif;
@@ -20,6 +20,9 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,6 +37,10 @@ header {
   justify-content: center;
   align-items: center;
   gap: 0.8em;
+  background-color: #393e46;
+  padding: 10px;
+  border: 2px solid #393e46;
+  border-radius: 100px;
 }
 
 .sectonsBtn {
@@ -79,6 +86,7 @@ nav {
 main {
   color: white;
   flex: 1;
+  margin-top: 100px;
 }
 
 .sections {
@@ -113,7 +121,7 @@ main {
 }
 
 .aboutMe a {
-  color: rgb(161, 2, 161);
+  color: blue;
 }
 
 .aboutMe a:hover {
@@ -187,7 +195,7 @@ ul {
 }
 
 .courses a {
-  color: rgb(172, 0, 172);
+  color: blue;
 }
 
 .courses a:hover {
@@ -233,7 +241,7 @@ ul {
 }
 
 .display-projects a {
-  color: rgb(172, 0, 172);
+  color: blue;
 }
 
 .display-projects a:hover {
@@ -291,12 +299,12 @@ ul {
 }
 
 .green {
-  color: green;
+  color: rgb(1, 219, 1);
   font-weight: bold;
 }
 
-.purple {
-  color: purple;
+.black {
+  color: rgb(2, 2, 2);
   font-weight: bold;
 }
 
@@ -307,4 +315,28 @@ ul {
 
 .red {
   color: rgb(216, 0, 0);
+}
+
+#aboutMe {
+  scroll-margin-top: 100px;
+}
+
+#contact {
+  scroll-margin-top: 100px;
+}
+
+#skills {
+  scroll-margin-top: 100px;
+}
+
+#experience {
+  scroll-margin-top: 100px;
+}
+
+#education {
+  scroll-margin-top: 100px;
+}
+
+#projects {
+  scroll-margin-top: 100px;
 }
