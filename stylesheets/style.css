@@ -8,7 +8,7 @@ body {
 }
 
 body {
-  background-color: #393e46;
+  background-color: #065706;
   display: flex;
   flex-direction: column;
   font-family: "Ubuntu", sans-serif;
@@ -121,7 +121,7 @@ main {
 }
 
 .aboutMe a {
-  color: rgb(161, 2, 161);
+  color: blue;
 }
 
 .aboutMe a:hover {
@@ -195,7 +195,7 @@ ul {
 }
 
 .courses a {
-  color: rgb(172, 0, 172);
+  color: blue;
 }
 
 .courses a:hover {
@@ -241,7 +241,7 @@ ul {
 }
 
 .display-projects a {
-  color: rgb(172, 0, 172);
+  color: blue;
 }
 
 .display-projects a:hover {
@@ -299,12 +299,12 @@ ul {
 }
 
 .green {
-  color: green;
+  color: rgb(1, 219, 1);
   font-weight: bold;
 }
 
-.purple {
-  color: purple;
+.black {
+  color: rgb(2, 2, 2);
   font-weight: bold;
 }
 
